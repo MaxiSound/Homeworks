@@ -11,7 +11,7 @@ int sum = 0;
 for (int n = 1; n < array.Length; n += 2)
     sum = sum + array[n];
 
-Console.WriteLine($"всего {array.Length} чисел, сумма элементов на нечётных позициях = {sum}");
+Console.WriteLine($"Массив из {array.Length} чисел, сумма элементов на нечётных позициях = {sum}");
 
 void FillArrayRandomNumbers(int[] array)
 {
