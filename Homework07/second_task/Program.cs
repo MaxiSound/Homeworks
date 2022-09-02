@@ -14,7 +14,7 @@ if (n > numbers.GetLength(0) || m > numbers.GetLength(1))
 }
 else
 {
-    Console.WriteLine($"Значение строки {n} и {m} столбца равно {numbers[n-1,m-1]}");
+    Console.WriteLine($"Значение строки {n} и столбца {m} равно {numbers[n-1,m-1]}");
 }
 
 PrintArray(numbers);
