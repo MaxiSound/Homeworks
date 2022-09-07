@@ -10,7 +10,7 @@ int[,] matrixC = new int[size, size];
 int InputInt(string output)
 {
     Console.WriteLine(output);
-    return int.Parse(Console.ReadLine());
+    return int.Parse(Console.ReadLine()!);
 }
 
 void FillArrayRandomNumbers(int[,] array)
